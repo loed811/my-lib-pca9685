@@ -18,28 +18,6 @@ Hardware Abstraction Layer (HAL): Clean separation between driver logic and I2C 
 
 STM32 Ready: Includes a default HAL implementation for STM32 using the HAL Library (hi2c1).
 
-📂 File Structure
-
-File
-
-Description
-
-pca9685_i2c.c
-
-Core driver implementation. Platform independent.
-
-pca9685_i2c.h
-
-Main header file. Includes struct definitions and API prototypes.
-
-pca9685_i2c_hal.c
-
-Hardware Abstraction Layer. Currently implements STM32 I2C.
-
-pca9685_i2c_hal.h
-
-HAL Header. Defines the interface required by the core driver.
-
 🚀 Getting Started (STM32)
 
 This driver comes pre-configured for STM32 using the standard HAL library.
